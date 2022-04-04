@@ -54,10 +54,6 @@ Contains all code and data for case study of the foliage-gleaning bird community
 + `pfile-1`, `pfile-2`, `pfile-3`, `pfile-sp-1`, `pfile-sp-2`, `pfile-sp-3`: files used to specify initial values when running files across multiple cores from the command line.
 + `summary-hbef.R`: script to perform summary analyses of all model results. Code to produce Figure 2, Table 3, and Figure 3 is in this script.
 
-### [Results](./results)
-
-Contains result files from all model runs. The names of the model run are indicated in each of the file names and are detailed in the `summary` files that use these results.
-
 ### [Simulations](./simulations)
 
 Contains code and data for analysis of a simulated data set. 

@@ -20,6 +20,11 @@ logit.inv <- function(z, a = 0, b = 1) {b-(b-a)/(1+exp(z))}
 
 
 # Read in results files ---------------------------------------------------
+# NOTE: results files are too large to place on GitHub, so please contact
+#       the first author (Jeff Doser doserjef@msu.edu) if you want them.
+#       Also note they don't take that long to run so you can just run them
+#       using the scripts in the hbef/ directory and produce results scripts
+#       on your own.
 # Load nonspatial MSOMs
 load("results/hbef-msPGOcc-1-2500-2022-03-21.R")
 out.1 <- out

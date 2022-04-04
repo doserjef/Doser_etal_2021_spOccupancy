@@ -15,6 +15,11 @@ library(stars)
 library(viridis)
 
 # Read in results files ---------------------------------------------------
+# NOTE: these files are too large to place on GitHub, so please contact
+#       the first author (Jeff Doser doserjef@msu.edu) if you want them. 
+#       Also note they don't take that long to run so you can just run them 
+#       using the scripts in the bbs/ directory and produce results scripts
+#       on your own.
 # Nonspatial SSOMs
 load("results/bbs-PGOcc-1-2022-03-21.R")
 out.1 <- out
@@ -193,9 +198,6 @@ psi.no.sp <- ggplot() +
 ggarrange(psi.sp, psi.no.sp, nrow = 1, ncol = 2)
 
 # Plot of predicted values ------------------------------------------------
-# NOTE: the prediction results are too large to put on GitHub so this code
-#       will not work. Contact the first author (doserjef@msu.edu) for the 
-#       file if desired. 
 load("results/bbs-pred-results.R")
 load("bbs/data/bbs-pred-data.rda")
 psi.0.mean <- apply(psi.0.samples, 2, mean)
